@@ -1,0 +1,10 @@
+#!/bin/bash -x
+# Define directories to be backed up
+
+source_directory="/scripts/MyDirectory/data3"
+backup_directory="/scripts/BackupDocs"
+create_directory="rsync -r $source_directory $backup_directory"
+
+[ -f $source_directory ] && echo "Do Backup!" &&  $create_directory || echo "File does not exists"
+
+

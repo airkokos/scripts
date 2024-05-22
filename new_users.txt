@@ -1,0 +1,5 @@
+UserA:passwd@1234A:1200:1200:Test:/home/UserA:/bin/bash
+UserB:passwd@1234B:1300:1300:Test:/home/UserB:/bin/bash
+UserC:passwd@1234C:1400:1400:Test:/home/UserC:/bin/bash
+UserD:passwd@1234D:1500:1500:Test:/home/UserD:/bin/bash
+UserE:passwd@1234E:1600:1600:Test:/home/UserE:/bin/bash
